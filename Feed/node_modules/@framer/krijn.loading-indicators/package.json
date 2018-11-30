@@ -1,0 +1,23 @@
+{
+	"main": "build/index.js",
+	"devDependencies": {
+		"@types/react": "^16.0.31",
+		"framer": "^0.1.18"
+	},
+	"peerDependencies": {
+		"framer": "^0.1.18",
+		"react": "^16.3.0",
+		"react-dom": "^16.3.0"
+	},
+	"framer": {
+		"id": "775ec3e0-e1c9-49b7-9688-2861ea3bf0d9",
+		"displayName": "Loading Indicators"
+	},
+	"author": {
+		"name": "Krijn Rijshouwer"
+	},
+	"description": "Add beautifully animated loaders to your design and customize them as you see fit. This package contains:",
+	"name": "@framer/krijn.loading-indicators",
+	"version": "1.4.0",
+	"license": "MIT"
+}

@@ -1,5 +1,5 @@
 Arguments: 
-  /Applications/Framer X.app/Contents/Resources/Node/bin/node /Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js outdated --cwd /Users/zeromac/Library/Autosave Information/Framer-364F8A1A-874E-4F42-9087-6606395D7DD2/container --skip-integrity-check --cache-folder /Users/zeromac/Library/Caches/Framer/yarn/cache --mutex file:/Users/zeromac/Library/Caches/Framer/yarn/mutex --json
+  /Applications/Framer X.app/Contents/Resources/Node/bin/node /Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js outdated --cwd /Users/zeromac/Library/Autosave Information/Framer-3E6CB5BA-B3C4-41C1-B455-D5A59A00B0B7/container --skip-integrity-check --cache-folder /Users/zeromac/Library/Caches/Framer/yarn/cache --mutex file:/Users/zeromac/Library/Caches/Framer/yarn/mutex --json
 
 PATH: 
   /usr/bin:/bin:/usr/sbin:/sbin
@@ -25,18 +25,18 @@ npm manifest:
   	"main": "build/index.js",
   	"license": "MIT",
   	"devDependencies": {
-  		"@types/react": "^16.0.31",
-  		"framer": "^0.8.0"
+  		"@types/react": "^16.4.16",
+  		"framer": "^0.9.6"
   	},
   	"peerDependencies": {
-  		"framer": "^0.8.0",
+  		"framer": "^0.9.6",
   		"react": "^16.3.0",
   		"react-dom": "^16.3.0"
   	},
   	"framer": {
-  		"id": "3bca4466-5c38-4153-aadb-acc6d2893688"
+  		"id": "4daa1404-ed14-4cbc-87ef-848d0e9f691e"
   	},
-  	"author": "Edoardo Mercati"
+  	"author": "du zero"
   }
 
 yarn manifest: 
@@ -47,10 +47,15 @@ Lockfile:
   # yarn lockfile v1
   
   
-  "@types/react@^16.0.31":
-    version "16.4.6"
-    resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.6.tgz#5024957c6bcef4f02823accf5974faba2e54fada"
+  "@types/prop-types@*":
+    version "15.5.6"
+    resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.5.6.tgz#9c03d3fed70a8d517c191b7734da2879b50ca26c"
+  
+  "@types/react@^16.4.16":
+    version "16.4.16"
+    resolved "https://registry.yarnpkg.com/@types/react/-/react-16.4.16.tgz#99f91b1200ae8c2062030402006d3b3c3a177043"
     dependencies:
+      "@types/prop-types" "*"
       csstype "^2.2.0"
   
   asap@~2.0.3:
@@ -95,9 +100,9 @@ Lockfile:
       setimmediate "^1.0.5"
       ua-parser-js "^0.7.18"
   
-  framer@^0.8.0:
-    version "0.8.0"
-    resolved "https://registry.yarnpkg.com/framer/-/framer-0.8.0.tgz#79928b5e16af2594683f0a3f70d044a3219d8a3d"
+  framer@^0.9.6:
+    version "0.9.7"
+    resolved "https://registry.yarnpkg.com/framer/-/framer-0.9.7.tgz#a539ab5ddfebea21ace8afa69d8c5842ab4a91fa"
     dependencies:
       draft-js "0.10.4"
       eventemitter3 "^3.1.0"
@@ -169,8 +174,8 @@ Lockfile:
     resolved "https://registry.yarnpkg.com/setimmediate/-/setimmediate-1.0.5.tgz#290cbb232e306942d7d7ea9b83732ab7856f8285"
   
   ua-parser-js@^0.7.18:
-    version "0.7.18"
-    resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.18.tgz#a7bfd92f56edfb117083b69e31d2aa8882d4b1ed"
+    version "0.7.19"
+    resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.19.tgz#94151be4c0a7fb1d001af7022fdaca4642659e4b"
   
   whatwg-fetch@>=0.10.0:
     version "3.0.0"
