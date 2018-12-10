@@ -14,7 +14,7 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.framer.com/@framer%2fkoenbok.signature: ESOCKETTIMEDOUT
+  Error: https://registry.framer.com/@framer%2fwilcoschoneveld.tabs: ESOCKETTIMEDOUT
       at ClientRequest.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js:138095:19)
       at Object.onceWrapper (events.js:313:30)
       at emitNone (events.js:106:13)
@@ -44,9 +44,9 @@ npm manifest:
   	},
   	"author": "du zero",
   	"dependencies": {
-  		"@framer/benjamin.logo": "^1.5.0",
-  		"@framer/koenbok.signature": "^1.4.0",
-  		"@framer/krijn.loading-indicators": "^1.4.0"
+  		"@framer/framer.examples": "^1.5.0",
+  		"@framer/krijn.loading-indicators": "^1.4.0",
+  		"@framer/wilcoschoneveld.tabs": "^1.0.0"
   	}
   }
 
@@ -58,17 +58,17 @@ Lockfile:
   # yarn lockfile v1
   
   
-  "@framer/benjamin.logo@^1.5.0":
+  "@framer/framer.examples@^1.5.0":
     version "1.5.0"
-    resolved "https://registry.framer.com/@framer/benjamin.logo/-/@framer/benjamin.logo-1.5.0.tgz#c212146e594b5690225914f80d8f901ad5236645"
-  
-  "@framer/koenbok.signature@^1.4.0":
-    version "1.4.0"
-    resolved "https://registry.framer.com/@framer/koenbok.signature/-/@framer/koenbok.signature-1.4.0.tgz#14791b97ad4a284889cf184f6c6dacff196799e0"
+    resolved "https://registry.framer.com/@framer/framer.examples/-/@framer/framer.examples-1.5.0.tgz#3895e6052f47697f353cc18d48694049b473b047"
   
   "@framer/krijn.loading-indicators@^1.4.0":
     version "1.4.0"
     resolved "https://registry.framer.com/@framer/krijn.loading-indicators/-/@framer/krijn.loading-indicators-1.4.0.tgz#0ae8841ced28c77a228b688b0366340dc2e37cdb"
+  
+  "@framer/wilcoschoneveld.tabs@^1.0.0":
+    version "1.0.0"
+    resolved "https://registry.framer.com/@framer/wilcoschoneveld.tabs/-/@framer/wilcoschoneveld.tabs-1.0.0.tgz#6cf2699a4c9c871e9cfa21a240ad69a0ff42341f"
   
   "@types/prop-types@*":
     version "15.5.6"
