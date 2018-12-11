@@ -1,5 +1,5 @@
 Arguments: 
-  /Applications/Framer X.app/Contents/Resources/Node/bin/node /Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js outdated --cwd /Users/zeromac/Library/Autosave Information/Framer-3E6CB5BA-B3C4-41C1-B455-D5A59A00B0B7/container --skip-integrity-check --cache-folder /Users/zeromac/Library/Caches/Framer/yarn/cache --mutex file:/Users/zeromac/Library/Caches/Framer/yarn/mutex --json
+  /Users/zeromac/Documents/软件安装包/Framer X.app/Contents/Resources/Node/bin/node /Users/zeromac/Documents/软件安装包/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js outdated --cwd /Users/zeromac/Library/Autosave Information/Framer-3E6CB5BA-B3C4-41C1-B455-D5A59A00B0B7/container --skip-integrity-check --cache-folder /Users/zeromac/Library/Caches/Framer/yarn/cache --mutex file:/Users/zeromac/Library/Caches/Framer/yarn/mutex --json
 
 PATH: 
   /usr/bin:/bin:/usr/sbin:/sbin
@@ -14,8 +14,8 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.framer.com/@framer%2fwilcoschoneveld.tabs: ESOCKETTIMEDOUT
-      at ClientRequest.<anonymous> (/Applications/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js:138095:19)
+  Error: https://registry.framer.com/@framer%2fframer.examples: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/Users/zeromac/Documents/软件安装包/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js:138095:19)
       at Object.onceWrapper (events.js:313:30)
       at emitNone (events.js:106:13)
       at ClientRequest.emit (events.js:208:7)
