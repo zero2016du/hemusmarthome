@@ -14,17 +14,12 @@ Platform:
   darwin x64
 
 Trace: 
-  Error: https://registry.framer.com/@framer%2fframer.examples: ESOCKETTIMEDOUT
-      at ClientRequest.<anonymous> (/Users/zeromac/Documents/软件安装包/Framer X.app/Contents/Resources/Server/node_modules/yarn/lib/cli.js:138095:19)
-      at Object.onceWrapper (events.js:313:30)
-      at emitNone (events.js:106:13)
-      at ClientRequest.emit (events.js:208:7)
-      at TLSSocket.emitTimeout (_http_client.js:706:34)
-      at Object.onceWrapper (events.js:313:30)
+  Error: certificate is not yet valid
+      at TLSSocket.<anonymous> (_tls_wrap.js:1105:38)
       at emitNone (events.js:106:13)
       at TLSSocket.emit (events.js:208:7)
-      at TLSSocket.Socket._onTimeout (net.js:410:8)
-      at ontimeout (timers.js:498:11)
+      at TLSSocket._finishInit (_tls_wrap.js:639:8)
+      at TLSWrap.ssl.onhandshakedone (_tls_wrap.js:469:38)
 
 npm manifest: 
   {
